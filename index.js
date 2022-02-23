@@ -63,12 +63,14 @@ function givePrompts(){
             case "UPDATE_EMPLOYEE_ROLE":
                 updateEmployeeRole();
                 break;
+            default:
+                quit();
         }
     })
 }
 
 function viewDepartments() {
-
+    
 }
 
 function viewRoles() {
@@ -93,6 +95,10 @@ function addEmployee() {
 
 function updateEmployeeRole() {
 
+}
+
+function quit() {
+    process.exit();
 }
 
 function init() {
