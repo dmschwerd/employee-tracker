@@ -34,7 +34,7 @@ function givePrompts(){
                     value: "ADD_EMPLOYEE"
                 },
                 {
-                    name: "Update Employee Role",
+                    name: "Update employee role",
                     value: "UPDATE_EMPLOYEE_ROLE"
                 },
             ]
